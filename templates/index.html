@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Calories Prediction using Multiple Linear Regression</title>
+    </head>
+<div class="container text-center">
+     <form action="/predict" method="POST">
+
+        <input type= 'text' name="Gender" placeholder="Gender 1 for male 0 for female of a person" required="required">
+        <br>
+        <input type= 'text' name="Age" placeholder="Age of a person" required="required">
+        <br>
+        <input type= 'text' name="Height" placeholder="Height of a person" required="required">
+        <br>
+        <input type= 'text' name="Weight" placeholder="Weight of a person" required="required">
+        <br>
+        <input type= 'text' name="Duration" placeholder="Duration of a person" required="required">
+        <br>
+        <input type= 'text' name="Heart Rate" placeholder="Heart Rate of a person" required="required">
+        <br>
+        <input type= 'text' name="Body Temp" placeholder="Body Temp of a person" required="required">
+        <br>
+        <button type="submit" class="'btn btn-outline-warning">predict</button>
+
+    </form>
+
+    <strong>total calories={{value}}</strong>
+</div>
+</html>
+    
